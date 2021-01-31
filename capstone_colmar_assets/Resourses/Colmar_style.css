@@ -1,0 +1,222 @@
+html{
+   /* font-family: Arial, Helvetica, sans-serif;*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*Header*/
+header{
+    margin:auto;
+    height: 64px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.header-left {
+    color: #2E4053;
+    font-size: 32px;
+    display: inline-block;
+    padding-top: 14px;
+}
+.academy-color{
+    color:#85929E;   
+}
+.name-banner{
+    margin-top: 0;
+    margin:auto;
+}
+.name-banner .logo{
+    height: auto;
+    width: 32px;
+    padding: 0;
+    vertical-align: middle;
+}
+.header-right {
+    float:right;
+    margin-right: 8px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float:right;
+}
+li a{
+    display:inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a { color: #2E4053;
+    text-decoration: none;   
+}
+    a:hover{color:gray;}
+
+    /*First Banner - Learn Something New*/
+.container-learn{
+    width: 100%;
+    height: 700px;
+    background-color: #E5E8E8;
+}
+.img-learn{
+    width: 60%;
+    margin: 32px 24px 32px 24px;
+    float: left;
+    overflow: hidden;
+    height:635px;
+    align-items: center;
+}
+.content-learn{
+    width: 30%;
+    float: right;
+    text-align: left;
+   margin-top: 150px;
+    margin-right: 45px;
+    margin-left: 0;
+    color: #424949;
+    align-items: center;
+    font-size: x-large;
+}
+.container-learn h1{
+    font-weight:800;
+    word-spacing: 0,05em;
+}
+.container-learn h3{
+    word-spacing: 0,05em;
+    line-height: 1.6;
+}
+.container-learn  button{
+    
+    background-color: #424949;
+    width: 90%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: medium;
+}
+.container-learn  button a{
+    color: #E5E8E8;
+}
+.container-learn  button a:hover{
+    color:#EBF163
+}
+
+/* Second Banner - Keep Practicing */
+/*Left side*/
+.container-practice-background{
+    width: 100%;
+    height: 762px;
+    background-color: white;
+
+}
+.container-practice-left{
+    width: 60%;
+    margin: 32px 24px 32px 24px;
+    float: left;
+   
+}
+.container-practice-img{
+    width: 100%;
+    margin: 0;
+    height: 60%;
+}
+.container-practice-left-content{
+    width: 100%;
+    margin: 0;
+    height: 40%;
+}
+.container-practice-left-content h1{
+    font-weight:800;
+    word-spacing: 0,3em;
+    letter-spacing: 3px;
+}
+/*Right side*/
+.container-practice-right{
+    width: auto;
+    height: 762px;
+}
+
+table{
+    border-collapse: collapse;
+    border-style: hidden;
+
+}
+.orientation-date-img {
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    float: left;
+    width: 230px;
+    height: 230px;
+}
+.orientation-date-text{
+
+    color: #424949;
+    margin-left: 0;
+}
+.orientation-date-text a{
+    color: lightskyblue;
+    margin-top: 0;
+}
+.orientation-date-text p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.orientation-date-text h3{
+    margin-bottom: 0;
+}
+.our-campus-img{
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    float:left;
+    width: 230px;
+    height: 230px;
+}
+.our-campus-text{
+
+    color: #424949;
+    margin-left: 0;
+}
+.our-campus-text a{
+    color: lightskyblue;
+    margin-top: 0;
+}
+.our-campus-text p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.our-campus-text h3{
+    margin-bottom: 0;
+}
+
+.third{
+    background-color: #E5E8E8;
+}
+.guest-lecture-img{
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    padding-right: 16px;
+    float:left;
+    width: 230px;
+    height: 230px;
+}
+.guest-lecture-text{
+
+    color: #424949;
+    margin-left: 0;
+}
+.guest-lecture-text a{
+    color: lightskyblue;
+    margin-top: 0;
+}
+.guest-lecture-text p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.guest-lecture-text h3{
+    margin-bottom: 0;
+}
