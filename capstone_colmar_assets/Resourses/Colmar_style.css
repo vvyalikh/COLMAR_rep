@@ -226,14 +226,206 @@ table{
 /*Start Learning - banner*/
 .start-learning {
     width: 100%;
-    height: 700px;
+    height: 960px;
     background-color: #E5E8E8;
 }
 .start-learning-header{
     color: #424949;
     padding-top: 32px;
     text-align: center;
+    
 }
-.start-learning-table{
-    padding: 32px 72px 32px 72px;
+
+
+/*Software engineering*/
+.software {
+    width: 430px;
+    height: 380px;
+    margin-left: 72px;
+    margin-right: 16px;
+    background-color: white;
+    margin-top: 16px;
 }
+.software-img{
+    width: 430px;
+    height: 190px;
+    
+}
+.software-text{
+    width: 430px;
+    height: 190px;
+    padding-bottom: 16px;
+    margin-left: 16px;
+}
+.software-text h3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+}
+.software-text p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color:#85929E;
+}
+/*Computer art*/
+.computer {
+    width: 430px;
+    height: 380px;
+    margin-left: 16px;
+    margin-right: 16px;
+    background-color: white;
+    margin-top: 16px;
+}
+.computer-img{
+    width: 430px;
+    height: 190px;
+    
+}
+.computer-text{
+    width: 430px;
+    height: 190px;
+    padding-bottom: 16px;
+    margin-left: 16px;
+}
+.computer-text h3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+}
+.computer-text p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color:#85929E;
+}
+    
+    /*Design*/
+
+    .design {
+        width: 430px;
+        height: 380px;
+        margin-left: 16px;
+        margin-right: 72px;
+        background-color: white;
+        margin-top: 16px;
+    }
+    .design-img{
+        width: 430px;
+        height: 190px;
+        
+    }
+    .design-text{
+        width: 430px;
+        height: 190px;
+        padding-bottom: 16px;
+        margin-left: 16px;
+       
+    }
+    .design-text h3{
+        margin-top: 16px;
+        margin-bottom: 16px;
+        
+    }
+    .design p{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        color:#85929E;
+    }
+    /*Data*/
+    
+    .data {
+        width: 430px;
+        height: 380px;
+        margin-left: 72px;
+        margin-right: 16px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        background-color: white;
+    }
+    .data-img{
+        width: 430px;
+        height: 190px;
+        
+    }
+    .data-text{
+        width: 430px;
+        height: 190px;
+        padding-bottom: 16px;
+        margin-left: 16px;
+       
+    }
+    .data-text h3{
+        margin-top: 16px;
+        margin-bottom: 16px;
+        
+    }
+    .data p{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        color:#85929E;
+    }
+    /*Business*/
+       
+    .business {
+        width: 430px;
+        height: 380px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        background-color: white;
+    }
+    .business-img{
+        width: 430px;
+        height: 190px;
+        
+    }
+    .business-text{
+        width: 430px;
+        height: 190px;
+        padding-bottom: 16px;
+        margin-left: 16px;
+       
+    }
+    .business-text h3{
+        margin-top: 16px;
+        margin-bottom: 16px;
+        
+    }
+    .business p{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        color:#85929E;
+    }
+    /*Marketing*/
+        
+    .marketing {
+        width: 430px;
+        height: 380px;
+        margin-left: 16px;
+        margin-right: 72px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        background-color: white;
+    }
+    .marketing-img{
+        width: 430px;
+        height: 190px;
+        
+    }
+    .marketing-text{
+        width: 430px;
+        height: 190px;
+        padding-bottom: 16px;
+        margin-left: 16px;
+       
+    }
+    .marketing-text h3{
+        margin-top: 16px;
+        margin-bottom: 16px;
+        
+    }
+    .marketing p{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        color:#85929E;
+    }
