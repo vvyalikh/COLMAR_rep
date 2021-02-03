@@ -224,6 +224,7 @@ table{
     margin-bottom: 0;
 }
 /*Start Learning - banner*/
+
 .start-learning {
     width: 100%;
     height: 960px;
@@ -260,7 +261,7 @@ table{
 .software-text h3{
     margin-top: 16px;
     margin-bottom: 16px;
-    
+    color:#424949;
 }
 .software-text p{
     margin-top: 8px;
@@ -290,7 +291,7 @@ table{
 .computer-text h3{
     margin-top: 16px;
     margin-bottom: 16px;
-    
+    color:#424949;
 }
 .computer-text p{
     margin-top: 8px;
@@ -323,7 +324,7 @@ table{
     .design-text h3{
         margin-top: 16px;
         margin-bottom: 16px;
-        
+        color:#424949;
     }
     .design p{
         margin-top: 8px;
@@ -356,7 +357,7 @@ table{
     .data-text h3{
         margin-top: 16px;
         margin-bottom: 16px;
-        
+        color:#424949;
     }
     .data p{
         margin-top: 8px;
@@ -389,7 +390,7 @@ table{
     .business-text h3{
         margin-top: 16px;
         margin-bottom: 16px;
-        
+        color:#424949;
     }
     .business p{
         margin-top: 8px;
@@ -422,10 +423,42 @@ table{
     .marketing-text h3{
         margin-top: 16px;
         margin-bottom: 16px;
-        
+        color:#424949;
     }
     .marketing p{
         margin-top: 8px;
         margin-bottom: 8px;
+        color:#85929E;
+    }
+    /* Thesis exhibit banner*/
+    /*Thesis exhibit banner - left side*/
+    .thesis {
+        width: 100%;
+        height: 960px;
+    }
+    .thesis h1{
+        text-align: center;
+        color:#424949;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .thesis-left{
+        width: 60%;
+    }
+    .thesis-video{
+        width: 90%;
+        float:left;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .thesis-text{
+        width: 100%;
+        float: left;
+        margin-left: 24px;
+    }
+    .thesis-text h3{
+        color:#424949;
+    }
+    .thesis-text p{
         color:#85929E;
     }
