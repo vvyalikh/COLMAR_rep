@@ -168,6 +168,7 @@ table{
 .orientation-date-text h3{
     margin-bottom: 0;
 }
+
 .our-campus-img{
     padding-left: 16px;
     padding-top: 16px;
@@ -194,9 +195,14 @@ table{
     margin-bottom: 0;
 }
 
+
 .third{
     background-color: #E5E8E8;
 
+}
+.third:hover{
+   
+        transform: scale(1.02);
 }
 .guest-lecture-img{
     padding-left: 16px;
@@ -247,6 +253,9 @@ table{
     background-color: white;
     margin-top: 16px;
 }
+.software:hover{
+        transform: scale(1.02);
+}
 .software-img{
     width: 430px;
     height: 190px;
@@ -277,6 +286,9 @@ table{
     background-color: white;
     margin-top: 16px;
 }
+.computer:hover{
+    transform: scale(1.02);}
+
 .computer-img{
     width: 430px;
     height: 190px;
@@ -309,6 +321,9 @@ table{
         background-color: white;
         margin-top: 16px;
     }
+    .design:hover{
+        transform: scale(1.02);}
+
     .design-img{
         width: 430px;
         height: 190px;
@@ -342,6 +357,10 @@ table{
         margin-bottom: 32px;
         background-color: white;
     }
+    .data:hover{
+        transform: scale(1.02);}
+    
+
     .data-img{
         width: 430px;
         height: 190px;
@@ -375,6 +394,9 @@ table{
         margin-bottom: 32px;
         background-color: white;
     }
+    .business:hover{
+        transform: scale(1.02);}
+
     .business-img{
         width: 430px;
         height: 190px;
@@ -408,6 +430,8 @@ table{
         margin-bottom: 32px;
         background-color: white;
     }
+    .marketing:hover{
+        transform: scale(1.02);}
     .marketing-img{
         width: 430px;
         height: 190px;
@@ -435,12 +459,16 @@ table{
     .thesis {
         width: 100%;
         height: 960px;
+        margin:0;
+        padding: 0;
     }
     .thesis h1{
         text-align: center;
         color:#424949;
         padding-top: 32px;
         padding-bottom: 32px;
+        margin-bottom: 0;
+        margin-top: 0;
     }
     .thesis-left{
         width: 60%;
@@ -460,5 +488,76 @@ table{
         color:#424949;
     }
     .thesis-text p{
+        color:#85929E;
+    }
+
+    /*Thesis exhibit banner - right side*/
+    /*Fisma design*/
+   .fisma-right{
+       display: flex;
+       flex-flow: column;
+       width: 40%;
+
+   }
+    .fisma{
+        display: flex;
+        margin-top: 0px;
+        vertical-align: top;
+        border: 0px;
+        width: 40%;
+        background-color: #E5E8E8 ;
+        margin-right: auto;
+        padding-right: 38px;
+    }
+    .fisma img{
+        padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    float:left;
+    width: 200px;
+    height: 200px;
+    }
+    .fisma-text{
+        text-align:left;
+        width: 65%;
+       
+    }
+    .fisma-text h2{
+       color: #424949;
+       padding-top: 40px;
+    }
+    .fisma-text p{
+        color:#85929E;
+    }
+    /*Now and then*/
+    .now-and-then{
+        display: flex;
+        margin: 0;
+        vertical-align: top;
+        padding: 0;
+        width: 35%;
+        background-color: white ;
+        
+    }
+    .now-and-then img{
+        padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    float:left;
+    width: 200px;
+    height: 200px;
+    }
+    .now-and-then-text{
+        text-align:left;
+        width: 65%;
+       
+    }
+    .now-and-then h2{
+       color: #424949;
+       padding-top: 40px;
+    }
+    .now-and-then p{
         color:#85929E;
     }
