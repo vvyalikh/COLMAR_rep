@@ -470,19 +470,18 @@ table{
         margin-bottom: 0;
         margin-top: 0;
     }
-    .thesis-left{
-        width: 60%;
-    }
+    
     .thesis-video{
-        width: 90%;
+        width: 60%;
         float:left;
         margin-left: 24px;
         margin-right: 24px;
     }
     .thesis-text{
-        width: 100%;
+        width: 60%;
         float: left;
         margin-left: 24px;
+        margin-right: 24px;
     }
     .thesis-text h3{
         color:#424949;
@@ -493,21 +492,23 @@ table{
 
     /*Thesis exhibit banner - right side*/
     /*Fisma design*/
-   .fisma-right{
-       display: flex;
-       flex-flow: column;
-       width: 40%;
-
-   }
+  
     .fisma{
         display: flex;
         margin-top: 0px;
         vertical-align: top;
         border: 0px;
-        width: 40%;
+        width: 35%;
         background-color: #E5E8E8 ;
-        margin-right: auto;
-        padding-right: 38px;
+        margin-right: 16px;
+        
+        margin-left: 16px;
+        text-align: center;
+        
+ 
+    }
+    .fisma:hover{
+        transform: scale(1.02);
     }
     .fisma img{
         padding-left: 16px;
@@ -529,16 +530,21 @@ table{
     }
     .fisma-text p{
         color:#85929E;
-    }
+    } 
     /*Now and then*/
+    
     .now-and-then{
         display: flex;
-        margin: 0;
+        margin-left: 16px;
+        margin-right: 16px;
         vertical-align: top;
-        padding: 0;
+    
         width: 35%;
         background-color: white ;
         
+    }
+    .now-and-then:hover{
+        transform: scale(1.02);
     }
     .now-and-then img{
         padding-left: 16px;
@@ -560,4 +566,4 @@ table{
     }
     .now-and-then p{
         color:#85929E;
-    }
+    } 
